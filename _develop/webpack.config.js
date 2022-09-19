@@ -85,6 +85,7 @@ const tsRules = {
 
 const baseConfig = {
   mode: 'development',
+  devtool: false, // disable source-maps to avoid issues with comments, see https://github.com/quilljs/quill/issues/3497
   context: path.resolve(__dirname, '..'),
   entry: {
     'quill.js': ['./quill.ts'],
