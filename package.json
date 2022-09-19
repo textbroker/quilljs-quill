@@ -1,6 +1,6 @@
 {
   "name": "@textbroker/quill",
-  "version": "2.0.0-dev.4-textbroker-0.0.3",
+  "version": "2.0.0-dev.4-textbroker-0.0.4",
   "description": "This is a Textbroker fork because in Angular 13 this package didn't work anymore. The reason is that there are sourcemap comments in dist/quill.js coming from the 4 JS files of quill-delta. This fork removed these sourcemap comments.",
   "author": "Jason Chen <jhchen7@gmail.com>",
   "homepage": "http://quilljs.com",
